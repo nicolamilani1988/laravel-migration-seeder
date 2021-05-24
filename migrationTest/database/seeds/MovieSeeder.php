@@ -1,16 +1,17 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use App\Movie;
 
-class DatabaseSeeder extends Seeder
+class MovieSeeder extends Seeder
 {
     /**
-     * Seed the application's database.
+     * Run the database seeds.
      *
      * @return void
      */
     public function run()
     {
-        $this->call(MovieSeeder::class);
+        factory(Movie::class, 10)->create();
     }
 }
