@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+    padding: 50px 0;
+    display: flex;
+}
+header,footer{
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+main{
+    .container{
+        justify-content: center;
+    }
+}
